@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "QuickTicket",
+  "version": "1.0",
+  "description": "Use this extension to quickly open a ticket in Jira",
+  "permissions": [
+    "bookmarks",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
